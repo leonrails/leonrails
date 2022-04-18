@@ -1,7 +1,27 @@
+# Learn Rails
 
-# install javascript on project
+## Rails Commands
+
+### install javascript on project
 >> rails action_text:install
 
-# Change database
+### Change database
 >> rails db:system:change --to=postgresql
 
+
+## Git
+
+…or create a new repository on the command line
+echo "# app" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/leonrails/app.git
+git push -u origin main
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/leonrails/app.git
+git branch -M main
+git push -u origin main
