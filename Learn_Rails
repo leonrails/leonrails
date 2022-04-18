@@ -1,0 +1,3 @@
+
+# install javascript on project
+>> rails action_text:install
