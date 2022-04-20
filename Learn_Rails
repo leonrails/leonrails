@@ -11,17 +11,18 @@
 
 ## Git
 
-…or create a new repository on the command line
-echo "# app" >> README.md
 git init
-git add README.md
+git add -A
 git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/leonrails/app.git
-git push -u origin main
 
+## Heroku
 
-…or push an existing repository from the command line
-git remote add origin https://github.com/leonrails/app.git
-git branch -M main
-git push -u origin main
+>> cd <aplicativo>
+>> heroku create
+>> git push heroku main
+
+Se necessário mudar a plataforma
+
+>> bundle lock --add-platform x86_64-linux
+
+>> heroku run rake db:migrate
