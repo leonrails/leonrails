@@ -26,3 +26,13 @@ Se necessário mudar a plataforma
 >> bundle lock --add-platform x86_64-linux
 
 >> heroku run rake db:migrate
+
+## Paginas estáticas
+
+- Criar o arquivo sobre.html.erb na pasta layouts/static_pages
+- Colocar o conteúdo da página estática
+- No arquivo static_pages_controler.rb inserir a Action
+    def sobre
+    end
+- Inserir Rota no arquivo config/routes.rb
+    
