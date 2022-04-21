@@ -8,6 +8,8 @@
 ### Change database
 >> rails db:system:change --to=postgresql
 
+### Model
+>> rails generate scaffold Contact name:string phone:string
 
 ## Git
 
