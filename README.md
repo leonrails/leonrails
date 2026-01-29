@@ -1,10 +1,7 @@
 # Meus registros de Estudo
 
-- 👋 Hi, I’m @leonrails
-PEsquisando o que me interessa.
+- 👋 Olá, sou o @leonrails - Registro aqui meus estudos. Pesquisando o que me interessa.
 
-- 👀 I’m interested in ...
-Criar um sistema de gestão especializado, inicialmente para estudo.
+- 👀 I’m interested in - AI models
 
-- 🌱 I’m currently learning ...
-Engenharia de Inteligências Artificiais
+- 🌱 I’m currently learning - Engenharia de Inteligências Artificiais
